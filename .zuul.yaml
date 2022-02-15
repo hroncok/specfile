@@ -1,0 +1,9 @@
+---
+- project:
+    check:
+      jobs:
+        - pre-commit
+        - noop
+    gate:
+      jobs:
+        - pre-commit
